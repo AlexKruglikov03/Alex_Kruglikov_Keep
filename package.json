@@ -1,0 +1,31 @@
+{
+  "name": "alex_kruglikov_keep",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexKruglikov03/Alex_Kruglikov_Keep.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexKruglikov03/Alex_Kruglikov_Keep/issues"
+  },
+  "homepage": "https://github.com/AlexKruglikov03/Alex_Kruglikov_Keep#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "gulp-concat-css": "^3.1.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "server": "^1.0.37"
+  }
+}
